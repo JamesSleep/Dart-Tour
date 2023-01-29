@@ -3,5 +3,5 @@ void main() {
   late final String name;
 
   name = 'dongha';
-  name = 'kim';
+  //name = 'kim';
 }
