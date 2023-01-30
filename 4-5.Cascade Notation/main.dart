@@ -1,0 +1,24 @@
+class Player {
+  String name, team;
+  int numberOfWorldChampionshipPrize;
+
+  Player({
+    required this.name,
+    required this.numberOfWorldChampionshipPrize,
+    required this.team,
+  });
+
+  void sayHello() {
+    print("Hi my name is $name");
+  }
+}
+
+void main() {
+  var faker =
+      Player(name: 'Faker', numberOfWorldChampionshipPrize: 3, team: 'T1');
+  var player = faker
+    ..name = 'Deft'
+    ..numberOfWorldChampionshipPrize = 1
+    ..team = 'Dplus'
+    ..sayHello();
+}
